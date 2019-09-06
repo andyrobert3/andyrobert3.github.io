@@ -5,7 +5,25 @@
   }
 
   html {
+      height: 100%;
+  }
+
+
+   /* Tag styling */
+
+  header {
+    background-image: url("./assets/angelhack.jpg");
+    /* Full height */
     height: 100%;
+    /* width: 100%; */
+
+    /* text-align: center; */
+    /* overflow: hidden; */
+
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
     
   body {
@@ -17,26 +35,38 @@
     color: #222;
     background: #fff;
   }
-  /* Link Styles */
-  
-  a {
-    text-decoration: none;
-    color: #0499ff;
+
+
+  main {
+    border: dotted;
+    position: absolute;
+    left: 50%;
+    width: 95%;
+    transform: translate(-50%, 0%);
+    overflow: hidden;
   }
-  a:hover {
-    color: #6633ff;
-  }
+
   
-  /* Section Styles */
+  h2 {
+    text-align:center;
+    padding-bottom: 10px;
+    border-bottom: dashed 2px #CCCCCC;
+    color:black;
+  }
+
+  
+  /* Navigation Styles */
   
   .main-nav {
     width: 100%;
     background: rgb(45, 61, 133);
-    min-height: 30px;
+    min-height: 50px;
     padding: 10px;
     position: fixed;
     text-align: center;
+    z-index: 1;
   }
+
   .nav {
     display: flex;
     justify-content: space-around;
@@ -58,72 +88,40 @@
     color: white
   }
   
-  header {
-    background-image: url("./assets/angelhack.jpg");
-    /* Full height */
-    height: 100%;
-
-    /* Center and scale the image nicely */
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
-    /* header .profile-image:hover {
-    transform: scale(1.2) rotate(180deg);
-  } */
-  .tag {
-    background-color: #efefef;
-    color: black;
-    padding: 10px;
-    border-radius: 5px;
-    display: table;
-    margin: 10px auto;
-  } 
-  .location {
-    background-color: #222;
-    color: green;
-  }
-  .card {
-    margin: 30px;
-    padding: 20px 40px 40px;
-    /* max-width: 500px; */
-    text-align: left;
-    /* background: #fff; */
-    /* border-bottom: 4px solid #ccc; */
-    border-radius: 6px;
+  /* Content Styling*/
+  .wrapper {
+    display: relative;
   }
 
   .left-entry {
-    width: 20%;
-    float: left;
+    flex: 0 0 30%;
+    /* display: block;
+    width: 80%; */
+    flex-direction: column;
   }
 
   .right-entry {
-      
+    flex: 1;
   }
 
-  /* .card:hover {
-    border-color: #ff99ff;
-  } */
-  
-  ul.skills {
-    padding: 0;
+  .profile-pic {
+    height: 200px;
+    overflow: hidden;
+    display: block;
     text-align: center;
   }
-  
-  .skills li {
-    border-radius: 6px;
-    display: inline-block;
-    background: #ff9904;
-    color: white;
-    padding: 5px 10px;
-    margin: 2px;
+
+  .profile-pic img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
   }
+
+
+ 
   
-  .skills li:nth-child(odd) {
-    background: #0399ff;
-  }
-  
+  /* Footer */
   footer {
     width: 100%;
     min-height: 30px;
@@ -146,13 +144,7 @@
     display: inline-block;
   }
   
-  h2 {
-    text-align:center;
-    padding-bottom: 10px;
-    border-bottom: dashed 2px #CCCCCC;
-    color:black;
-  }
-  
+  /* Link styling */
   a.social {
     display: inline-block;
     text-indent: -9999px;
@@ -178,10 +170,18 @@
   .clearfix {
     clear: both;
   }
-  
+
   /* Styles for larger screens */
-  @media screen and (min-width: 720px) {
-    
+  @media screen and (min-width: 600px) {
+    .wrapper {
+       display: flex;
+    }
+
+    main {
+        border: dotted;
+        width: 500px;
+    }
+
     .flex {
         display: flex;
         max-width: 1200px;
@@ -203,20 +203,21 @@
       color: white;
     }
   
-    main {
-      padding-top: 50px;
-    }
-  
-    main p {
-      line-height: 1.6em;
-    }
-  
-    footer {
-      font-size: 1.3em;
-      max-width: 1200px;
-      margin: 40px auto;
-    }
-  
+    /* footer {
+        font-size: 1.3em;
+        max-width: 1200px;
+        margin: 40px auto;
+    } */
   }
+
+  @media screen and (min-width: 1080px) {
+    main {
+        border: dotted;
+        width: 800px;
+        justify-content: center;
+    }
+
+  }
+
   
   
