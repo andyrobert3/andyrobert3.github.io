@@ -54,6 +54,12 @@
     color:black;
   }
 
+  .card {
+      margin-bottom: 80px;
+  }
+
+  
+
   
   /* Navigation Styles */
   
@@ -93,17 +99,19 @@
     display: relative;
   }
 
-  .left-entry {
+  .first-entry {
     flex: 0 0 30%;
     /* display: block;
     width: 80%; */
     flex-direction: column;
   }
 
-  .right-entry {
+  .second-entry {
     flex: 1;
   }
 
+
+  /* Image styling */
   .profile-pic {
     height: 200px;
     overflow: hidden;
@@ -115,12 +123,22 @@
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    
+  }
+  
+  .logo {
+    height: 200px;
+    overflow: hidden;
+    display: block;
+    text-align: center;
   }
 
+  .logo img {
+    width: auto;
+    height: 150px;
+  }
 
  
-  
+
   /* Footer */
   footer {
     width: 100%;
