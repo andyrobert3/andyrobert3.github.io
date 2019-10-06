@@ -1,79 +1,780 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-  <meta charset="utf-8">
-  <title>Matthew Alexander</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
-  <body>
 
-    <div class="main-nav">
-        <ul class="nav">
-          <li class="name">Matthew Alexander</li>
-          <li><a href="resume.html">Experience</a></li>
-          <li><a href="#">Photos</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-    </div>
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Matthew</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
 
-    <header>
-    </header>
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <main>
-        <div class="card"> 
-            <h2>About me</h2>
-            <div class="wrapper">
-            
-            <div class="first-entry">
-                <div class="profile-pic">
-                    <img src="./assets/me.jpg"/>
-                </div>
-            </div>
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">  
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/vendor.css">     
 
-            <div class="second-entry">
-                <p>I’m an aspiring web designer who loves everything about the web. I've lived in lots of different places and have worked in lots of different jobs. I’m excited to bring my life experience to the process of building fantastic looking websites.</p>
-                <p>I’ve been a professional cook and gardener and am a life-long learner who's always interested in expanding my skills.</p>
-                <p> To learn more, <a href="./Matthew_Resume.pdf">view my resume.</a> </p>
-            </div>
-            
-                </div> 
-        </div>
-        
+   <!-- script
+   ================================================== -->   
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
 
-        <div class="card"> 
-            <h2>Education</h2>
-                <div class="wrapper">
-                
-                <div class="first-entry">
-                    <div class="logo">
-                        <img src="./assets/National_University_of_Singapore_logo_NUS.png"/>
-                    </div>
-                </div>
-                <div class="second-entry">
-                    <span>
-                        <h3>National University of Singapore</h3>
-                    </span>
-                    
+   <!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.png">
 
-                    <p>I’m an aspiring web designer who loves everything about the web. I've lived in lots of different places and have worked in lots of different jobs. I’m excited to bring my life experience to the process of building fantastic looking websites.</p>
-                    <p>I’ve been a professional cook and gardener and am a life-long learner who's always interested in expanding my skills.</p>
-                    <ul>
-                        <li>To learn more, <a href="resume.html">view my resume.</a></li>
-                    </ul>
-                </div>
-                
-            </div> 
-        </div>
+</head>
 
-    </main>
-    <footer>
-      <ul>
-        <li><a href="https://twitter.com" target="_blank" class="social twitter">Twitter</a></li>
-        <li><a href="#" class="social linkedin">LinkedIn</a></li>
-        <li><a href="#" class="social github">Github</a></li>
-      </ul>
-      <!-- <p class="copyright">Copyright 2015, Jane Smith</p> -->
-    </footer>
-  </body>
-  </html>
+<body id="top">
+
+	<!-- header 
+   ================================================== -->
+   <header>   	
+   	<div class="row">
+
+   		<div class="top-bar">
+   			<a class="menu-toggle" href="#"><span>Menu</span></a>
+
+	   		<div class="logo">
+		         <a href="index.html">KARDS</a>
+		      </div>		      
+
+		   	<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
+						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
+						<li><a class="smoothscroll"  href="#portfolio" title="">Portfolio</a></li>
+						<li><a class="smoothscroll"  href="#extracurricular" title="">Extracurricular</a></li>
+						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>	
+					</ul>
+				</nav>    		
+   		</div> <!-- /top-bar --> 
+   		
+   	</div> <!-- /row --> 		
+   </header> <!-- /header -->
+
+	<!-- intro section
+   ================================================== -->
+   <section id="intro">   
+
+   	<div class="intro-overlay"></div>	
+
+   	<div class="intro-content">
+   		<div class="row">
+
+   			<div class="col-twelve">
+
+	   			<h5>Hello there</h5>
+	   			<h1>I am Matthew Alexander</h1>
+
+	   			<p class="intro-position">
+	   				<span>Software Engineer</span>
+	   				<span>Startup Enthusiast</span> 
+	   			</p>
+
+	   			<a class="button stroke smoothscroll" href="#about" title="">Get to know more</a>
+
+	   		</div>  
+   			
+		   </div>   	
+		   
+		   
+   	</div> <!-- /intro-content --> 
+
+   	<ul class="intro-social">        
+         <li>
+			 <a href="#">
+				<img src="">
+		 	</a>
+		</li>
+         <li><a href="https://www.linkedin.com/in/matthewalexan/"><i class="fa fa-linkedin"></i></a></li>
+         <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
+         <!-- <li><a href="#"><i class="fa fa-dribbble"></i></a></li> -->
+         <li><a href="https://github.com/andyrobert3"><i class="fa fa-github"></i></a></li>
+      </ul> <!-- /intro-social -->      	
+
+   </section> <!-- /intro -->
+
+
+   <!-- about section
+   ================================================== -->
+   <section id="about">  
+
+   	<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>About</h5>
+   			<h1>Let me introduce myself.</h1>
+
+   			<div class="intro-info">
+
+   				<img src="images/profile-pic.png" alt="Profile Picture">
+
+   				<p class="lead">
+					Avid software develoer who likes everything about startups.
+					Penultimate student who likes everything about startups, 
+					likes to tinker around 
+				</p>
+   			</div>   			
+
+		   </div>   		
+		   
+
+		   <div class="col-six tab-full">
+
+				<h3>Skills</h3>
+				<p>Rough indicators of my proficiency in the various programming languages.</p>
+	
+				 <ul class="skill-bars">
+					<li>
+						<div class="progress percent90"><span>90%</span></div>
+						<strong>C++</strong>
+					</li>
+					<li>
+						<div class="progress percent85"><span>85%</span></div>
+						<strong>Node JS</strong>
+					</li>
+					<li>
+						<div class="progress percent70"><span>70%</span></div>
+						<strong>Java</strong>
+					</li>
+					<li>
+						<div class="progress percent95"><span>95%</span></div>
+						<strong>Angular</strong>
+					</li>
+					<!-- <li>
+	
+						<div class="progress percent75"><span>75%</span></div>
+						<strong>Wordpress</strong>
+					</li> -->
+	   
+				 </ul> <!-- /skill-bars -->		
+	
+			</div>
+
+	   </div> <!-- /section-intro -->
+	   
+	   
+
+
+   	<div class="row button-section">
+   		<div class="col-twelve">
+   			<!-- <a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a> -->
+   			<a href="/Matthew_Resume_T.pdf" title="Download CV" class="button button-primary">Download Resume</a>
+   		</div>   		
+   	</div>
+
+   </section> <!-- /process-->    
+
+
+   <!-- resume Section
+   ================================================== -->
+	<section id="resume" class="grey-section">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Resume</h5>
+   			<h1>More of my credentials.</h1>
+
+   			<p class="lead">
+				A bit more about myself 
+			</p>
+   		</div>   		
+	   </div> <!-- /section-intro--> 
+	   
+	   <div class="row resume-timeline">
+
+			<div class="col-twelve resume-header">
+ 
+				<h2>Education</h2>
+ 
+			</div> <!-- /resume-header -->
+ 
+			<div class="col-twelve">
+ 
+				<div class="timeline-wrap">
+ 
+					<div class="timeline-block">
+ 
+						<div class="timeline-ico">
+							<!-- <i class="fa fa-briefcase"></i> -->
+							<img src="images/nus.png" alt="NUS logo">
+						</div>
+ 
+						<div class="timeline-header">
+							<h3> Bachelor in Computer Engineering </h3>
+							<p>August 2017 - Present</p>
+						</div>
+ 
+						<div class="timeline-content">
+							<h3>National University of Singapore</h3>
+							<p>
+								Bachelor in Engineering (Computer Engineering) with Second Major in Innovation & Design
+								<br /><br />
+								Dean's List AY18/19 Semester 2 (Top 5%)
+								<br/>
+								Cumulative Average Point: 4.51/5.0
+											
+							</p>
+						</div>
+ 
+					</div> <!-- /timeline-block -->
+ 
+					
+				</div> <!-- /timeline-wrap -->   			
+ 
+			</div> <!-- /col-twelve -->
+			
+		</div> <!-- /resume-timeline -->
+
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Experience</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+						<!-- <i class="fa fa-graduation-cap"></i> -->
+						<img src="images/nus.png" alt="NUS logo">
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Computing Teaching Assistant</h3>
+	   					<p>August 2019 - Present</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>School of Computing
+							   <br/> National University of Singapore</h4>
+	   					<p>Teaching & Guiding students for <a href="https://nusmods.com/modules/CS2113T/software-engineering-object-oriented-programming">CS2113T</a> (Software Engineering & Objected Oriented Programming) in Java</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+						
+	   				<div class="timeline-ico">
+						   <!-- <i class="fa fa-graduation-cap"></i> -->
+						   <img src="images/singtel.png" alt="Singtel logo" style="border-radius: 50%">
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Software Engineering Intern</h3>
+	   					<p>May 2019 - August 2019</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h3>Singtel</h3>
+	   					<p>
+								<a href="https://www.singtel.com" target="_blank">Singtel</a> is Asia's leading communications group, 
+								providing a diverse range of services including fixed, mobile, data, internet, TV, infocomms technology (ICT)  and digital solutions.
+								<br/> </br>
+								• Spearheaded RESTful API for <a href="https://www.cloudshop.singtel.com" target="_blank">Singtel CloudShop</a> - Cloud Services B2B marketplace reselling AWS, GCP, Azure with an estimated 7-digit revenue.
+								<br/>
+								•	Developed user purchase flow for enterprise clients from automated emails, cloud account provisioning, reset & forgot password.
+								<br />
+								•	Built overall service using NodeJS, MongoDB utilizing AWS stack (Lambda, S3, EC2, SES).
+						</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+						   <!-- <i class="fa fa-graduation-cap"></i> -->
+						   <img src="images/taralite.png" style="border-radius: 50%">
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Software Engineering Intern</h3>
+	   					<p>May 2018 - August 2018</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Taralite - Subsidiary of OVO</h4>
+	   					<p>
+							<a href="https://www.linkedin.com/company/visionetinternasional" target="_blank">OVO</a> is Indonesia's fifth unicorn & the largest digital payments platform in Indonesia. 
+							<br/>
+							<a href="https://www.taralite.com/" target="_blank">Taralite</a> is peer to peer lending platform that helps provide digital loans through OVO.
+							<br/><br/>
+							•	Integrated DocuSign API to replace legacy loan confirmation API service with GCP tools (GCS, Cloud Functions) using Node JS & Sequelize.
+							<br/><br />
+							•	Spearheaded transformation of loan life cycle for thousands of loans to be legally binding using digital signatures from DocuSign.
+							<br /><br />
+							•	Removed 40% of redundant PostgreSQL loan confirmation table data from legacy system.
+
+						</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+   			</div> <!-- /timeline-wrap -->   			
+
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
+   	
+   	
+		
+	</section> <!-- /features -->
+
+
+	<!-- Portfolio Section
+   ================================================== -->
+	<section id="portfolio">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Portfolio</h5>
+   			<h1>Check Out Some of My Works.</h1>
+
+   			<p class="lead">
+				Some projects that I made for school or on the side.
+			</p>
+
+   		</div>   		
+   	</div> <!-- /section-intro--> 
+
+   	<div class="row portfolio-content">
+
+   		<div class="col-twelve">
+
+   			<!-- portfolio-wrapper -->
+	         <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+
+	         	<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/scrio_dashboard.png" alt="Liberty">
+	                  <a href="#modal-01" class="overlay">	                  	           
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+		     					       <h3 class="folio-title">Scrio</h3>	     					    
+		     					    	 <span class="folio-types">
+											Dashboard
+		     					       </span>
+		     					   </div>	                      	
+	                     </div>                    
+	                  </a>
+				</div>	  
+
+				</div> <!-- /folio-item -->
+
+	        		<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/police_records.png" alt="Police Records">
+	               	<a href="#modal-02" class="overlay">              		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Police Records</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Java Application
+		     					      </span>		     		
+		     					   </div> 	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->
+
+
+	            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/aribitrage.png" alt="Arbitrage Engine">
+	                  <a href="#modal-04" class="overlay">                  	                 
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Forex Arbitrage Engine</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Socket Client Server in Java
+		     					      </span>		     		
+		     					   </div>  	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->     
+
+				<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/everyday_challenge.jpg" alt="Lighthouse">
+	                  <a href="#modal-05" class="overlay">             		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Everyday Challenge</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Android App
+		     					      </span>		     		
+		     					   </div> 	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->
+
+	            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/OnDmand.png" alt="Salad">
+	                  <a href="#modal-06" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">OnDmand</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Part time Job Seeking Platform
+		     					      </span>		     		
+		     					   </div>	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+				</div> <!-- /folio-item -->   
+
+	            <!-- modal popups - begin
+	            ============================================================= -->
+	            <div id="modal-01" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/scrio_dashboard.png" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Scrio Dashboard</h4>		      
+					      <p>
+							Develop data visualization dashboard for contact center managers with d3, Angular, Node & MongoDB.
+							<br/> 
+						  </p>
+
+					      <div class="categories">Web Development</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="http://demo.scrio.org">Dashboard</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-01 -->
+
+				   <div id="modal-02" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/police_records.png" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Police Records Database</h4>		      
+					      <p>
+								It is a Java written program targeted for both police officers and headquarters personnel.
+								<br/><br/>
+								For police officers, they are able to screen for a person’s criminal record based on NRIC (National Registration Identity Card) and requestbackup when needed to headquarters (HQ).
+								<br/><br/>
+								For headquarters personnel, they are able to add, edit, delete criminals from the database. In addition, personnel are also able to dispatch for backup for each personnel.
+						  </p>
+
+					      <div class="categories">Java, JUnit Tests</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="https://github.com/andyrobert3/Main">Repository</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-02 -->
+
+				   <div id="modal-03" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/everyday_challenge.jpg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Native Android App</h4>		      
+					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+					      <div class="categories">Web Design</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="http://www.behance.net">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-03 -->
+
+				   <div id="modal-04" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/aribitrage.png" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Forex Arbitrage Engine</h4>		      
+					      <p>
+								Built an arbitrage engine that can detect profit from the difference in forex quotes from different liquidity providers (servers).
+								<br/> <br/>
+								Then execute trades based on the difference in prices between forex quotes with a client-server socket architecture.
+						  </p>
+
+					      <div class="categories">Java, NodeJS Client Server Socket</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="https://github.com/andyrobert3/code-to-connect-arbitrage" target="_blank">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-04 -->
+
+				   <div id="modal-05" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/everyday_challenge.jpg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Everyday Challenge</h4>		      
+					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+					      <div class="categories">Android Development</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="https://github.com/andyrobert3/Everyday_Challenge_Final" target="_blank">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-05 -->
+
+				   <div id="modal-06" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/OnDmand.png" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>OnDmand</h4>		      
+					      <p>OnDmand is a web app platform that allows employers and part-time job seekers to connect with each other.
+							  <br/><br/>
+							  Built website with NodeJS, MYSQL for the backend and
+							  EJS & CSS used for frontend.
+						  </p>
+
+					      <div class="categories">Web App</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="https://www.youtube.com/watch?v=5jt9SRqcIZo" target="_blank">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div>
+				    <!-- /modal-06 -->
+
+
+				   <!-- modal popups - end
+	            ============================================================= -->
+
+	         </div> <!-- /portfolio-wrapper --> 
+
+   		</div>  <!-- /twelve -->   
+
+   	</div> <!-- /portfolio-content --> 
+		
+	</section> <!-- /portfolio --> 
+
+	<section id="extracurricular" class="grey-section">
+
+			<div class="row section-intro">
+			   <div class="col-twelve">
+	
+				   <h2 style="color: rgb(255, 0, 107)"> Extracurricular Activities</h2>	
+				   <h1>Activities I do besides coding & school</h1>
+				   <p class="lead">
+					
+					</p>
+			   </div>   
+			   
+				<div class="bgrid folio-item">
+						<div class="item-wrap">
+							
+						<a href="#modal-00" class="overlay">
+							<img src="images/portfolio/UNICON.png" alt="UNICON">	    
+						</a>
+						<div class="folio-item-table">
+							<div class="folio-item-cell">
+										<h3 class="folio-title">Head of UNICON2020</h3>	     					    
+										<span class="folio-types">
+											<a href="http://unicon2020.com" target="_blank">UNICON2020</a> is Asia's largest student led tech-startup conference.
+											<br/>
+											<br/>
+											Uniting more than 400 student entrepreneurs, industry experts & venture capitalists for 2 days through series of panel
+											discussions, masterclasses, keynotes & pitching competitions around the region.
+										</span>
+									</div>	                      	
+						</div>                    
+						
+				</div>	
+
+
+				<div id="modal-00" class="popup-modal slider mfp-hide">	
+
+						<div class="media">
+							<img src="images/unicon_team.JPG" alt=""/>
+						</div>      	
+
+					  <div class="description-box">
+						 <h4>Project Director of UNICON2020</h4>		      
+						 <p>
+								The upcoming UNICON2020 will be held on Feb 22nd to 23rd February 2020 at the National University of Singapore. 
+								<br/><br/>
+								Background on UNICON:
+								<br/>
+								UNICON has been addressed by guests of honor such as Senior Minister of State, Dr. Janil Puthucheary & Senior Minister of State, Ministry of Trade and Industry & Ministry of Education, Mr. Chee Hong Tat.  
+								<br/><br/>
+								We have had an incredible line-up of speakers and industry experts such as Chatri Sityodong (Founder & CEO, ONE Championship), Sidu Ponnappa (Managing Director, GO-JEK India), Shanru Lai (Co-Founder, Shopback), Sakhee Dheer (Head of Digital Market, Facebook APAC). 
+						 </p>
+						 <br/>
+						 <div class="categories">Tech Conference</div>			               
+					  </div>
+
+					<div class="link-box">
+					   <a href="http://unicon2020.com" target="_blank">Know more</a>
+						 <a href="#" class="popup-modal-dismiss">Close</a>
+					</div>		      
+
+				</div> <!-- /modal-01 -->
+
+		   </div> <!-- /section-intro--> 
+		   
+	   
+			
+		</section> <!-- /features -->
+
+
+	
+	
+   <!-- contact
+   ================================================== -->
+	<section id="contact">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Contact</h5>
+   			<h1>I'd Love To Hear From You.</h1>
+
+   			<!-- <p class="lead">
+				   Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua 
+				   incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.
+			</p> -->
+
+   		</div> 
+   	</div> <!-- /section-intro -->
+
+   	<div class="row contact-info">
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="icon-pin"></i>
+   			</div>
+
+   			<h5>Where to find me</h5>
+
+   			<p>
+            Singapore, Jakarta
+            </p>
+
+   		</div>
+
+   		<div class="col-four tab-full collapse">
+
+   			<div class="icon">
+   				<i class="icon-mail"></i>
+   			</div>
+
+   			<h5>Email Me At</h5>
+
+   			<p>
+				   <a href="mailto:alexandermatthew12@gmail.com" style="color: white">alexandermatthew12@gmail.com</a>	     
+			</p>
+
+   		</div>
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="icon-phone"></i>
+   			</div>
+
+   			<h5>Call Me At</h5>
+
+   			<p>Skype: alexandermatthew12@live.com<br>
+			
+			</p>
+
+   		</div>
+   		
+   	</div> <!-- /contact-info -->
+		
+	</section> <!-- /contact -->
+
+
+   <!-- footer
+   ================================================== -->
+
+   <footer>
+     	<div class="row">
+
+     		<div class="col-six tab-full pull-right social">
+
+     			<ul class="footer-social">        
+			      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+			      <!-- <li><a href="#"><i class="fa fa-behance"></i></a></li> -->
+			      <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
+			      <!-- <li><a href="#"><i class="fa fa-dribbble"></i></a></li> -->
+			      <!-- <li><a href="#"><i class="fa fa-instagram"></i></a></li> -->
+			   </ul> 
+	      		
+	      </div>
+
+      	<div class="col-six tab-full">
+	      	<div class="copyright">
+		        	<span>© Copyright Kards 2016.</span> 
+		        	<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>	         	
+		         </div>		                  
+	      	</div>
+
+	      	<div id="go-top">
+		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+		      </div>
+
+      	</div> <!-- /row -->     	
+   </footer>  
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
+
+</body>
+
+</html>
