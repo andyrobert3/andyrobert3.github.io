@@ -72,9 +72,9 @@ html, body {
 body {
 	background: #151515;
 	font-family: "lora-regular", serif;
-	font-size: 1.7rem;
+	font-size: 1.5rem;
 	line-height: 3rem;
-	color: #6e6e6e;
+	color: #3b3b3b;
 }
 
 /**
@@ -82,7 +82,7 @@ body {
  * -------------------------------------------------------------------
  */
 a, a:visited {
-	color: #000000;
+	color: #2d60bd;
 	text-decoration: underline;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -155,9 +155,9 @@ p img {
 }
 p.lead {
 	font-family: "lora-regular", serif;
-	font-size: 2rem;
+	font-size: 1.4rem;
 	line-height: 1.8;
-	color: #888888;
+	color: #505050;
 }
 @media only screen and (max-width:768px) {
 	p.lead {
@@ -1107,7 +1107,7 @@ header .logo {
 	float: left;
 	margin-left: 20px;
 	margin-right: 50px;
-	margin-top: 25px;
+	margin-top: 20px;
 	position: relative;
 }
 header .logo a {
@@ -1119,9 +1119,10 @@ header .logo a {
 	text-shadow: none;
 	color: transparent;
 	width: 92px;
-	height: 15px;
-	background: url("../images/logo.png") no-repeat center;
-	background-size: 92px 15px;
+	height: 25px;
+	background: url("../images/logo_new.png") no-repeat center;
+
+	background-size: 92px 25px;
 }
 
 /**
@@ -1295,7 +1296,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #intro {
-	background: #151515 url(../images/intro-bg.jpg) no-repeat center bottom;
+	background: #000000 url(../images/grab_hack.png) no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1313,8 +1314,8 @@ header .logo a {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #111111;
-	opacity: .85;
+	background: #3d3d3d;
+	opacity: .75;
 }
 
 .intro-content {
@@ -1914,6 +1915,8 @@ header .logo a {
 }
 .popup-modal .media {
 	position: relative;
+	display: block;
+	margin: auto;
 }
 .popup-modal img {
 	vertical-align: bottom;
