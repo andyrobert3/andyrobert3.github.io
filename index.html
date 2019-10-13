@@ -28,7 +28,7 @@
 
    <!-- favicons
 	================================================== -->
-	<link rel="icon" type="image/png" href="/images/nus.png">
+	<link rel="icon" type="image/png" href="/favicon.ico">
 
 </head>
 
@@ -135,16 +135,16 @@
 					Besides work, in my free time I do my own side projects with friends and join hackathons to make & break fast.
 					<br/> <br/>
 					Beyond just technical skills, I try to foster and get plugged in to the startup community and energy as a lead organizer
-					for Asia's largest student led conference <a href="http://unicon2020.com">UNICON</a>.
+					for Asia's largest student led tech-entrepreneurship conference UNICON.
 
    			</div>   			
 
 		   </div>   		
 		   
 
-		   <div class="col-six tab-full" style="float: none">
+		   <div class="col-six tab-full" style="float: none;">
 
-				<h3>Skills</h3>
+				<h2>Skills</h2>
 				<p>Rough indicators of my proficiency in the various programming languages.</p>
 	
 				 <ul class="skill-bars">
@@ -170,7 +170,7 @@
 					</li>
 					<li>
 	
-						<div class="progress percent45"><span>45%</span></div>
+						<div class="progress percent40"><span>40%</span></div>
 						<strong>Python</strong>
 					</li>
 	   
@@ -186,7 +186,7 @@
    	<div class="row button-section">
    		<div class="col-twelve">
    			<!-- <a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a> -->
-   			<a href="/Matthew_ALEXANDER_CV.pdf" title="Download CV" class="button button-primary">Download CV</a>
+   			<a href="/Matthew_ALEXANDER_CV.pdf" title="Download CV" target="_blank" class="button button-primary">Download CV</a>
    		</div>   		
    	</div>
 
@@ -517,7 +517,7 @@
 
 	            <!-- modal popups - begin
 	            ============================================================= -->
-	            <div id="modal-01" class="popup-modal slider mfp-hide">	
+	            	<div id="modal-01" class="popup-modal slider mfp-hide">	
 
 				     	<div class="media">
 				     		<img src="images/portfolio/scrio_dashboard.png" alt="" />
@@ -532,7 +532,7 @@
 							<br/> 
 						  </p>
 
-					      <div class="categories">Web Development</div>			               
+					      <div class="categories">d3, Angular, Node & MongoDB</div>			               
 					   </div>
 
 			         <div class="link-box">
@@ -577,12 +577,16 @@
 					   <div class="description-box">
 					      <h4>Forex Arbitrage Engine</h4>		      
 					      <p>
-								Built an arbitrage engine that can detect profit from the difference in forex quotes from different liquidity providers (servers).
+								During Bank of America Merrill Lynch Hackathon, built an arbitrage engine that can 
+								detect profit from the difference in bid & ask from different liquidity providers & execute trades to maximize profits. 
+								<br/><br/>
+								Arbitrage engine was a client that connected to the different liquidity providers (servers) with socket.io 
+								to enable real-time event based communication due to the frequency of updates for the liquidity providers.
 								<br/> <br/>
-								Then execute trades based on the difference in prices between forex quotes with a client-server socket architecture.
+								I built up the connection between the Java Arbitrage Engine (client) to the NodeJS servers (liquidity providers) using socket.io.
 						  </p>
 
-					      <div class="categories">Java, NodeJS Client Server Socket</div>			               
+					      <div class="categories">Java, NodeJS, Web Socket</div>			               
 					   </div>
 
 			         <div class="link-box">
@@ -603,12 +607,12 @@
 					      <h4>Everyday Challenge</h4>		      
 							<p>
 									Everyday Challenge is an Android app created in Java with Android Studio built in team of three during a hackathon from zero Android experience. 
-									It gives a user random challenges for continuous self improvement, then the user can share his/her progress with their friends on Facebook or WhatsApp.
+									It gives a user random challenges for continuous self improvement, then the user can share their progress with their friends on Facebook or WhatsApp.
 
 									<br/><br/>
 									I developed & combined Activity classes to communicate between each other and store user info on phone.
 							</p>
-					      <div class="categories">Android Development</div>			               
+					      <div class="categories">Java, Android</div>			               
 					   </div>
 
 			         <div class="link-box">
@@ -626,13 +630,17 @@
 
 					   <div class="description-box">
 					      <h4>OnDmand</h4>		      
-					      <p>OnDmand is a web app platform that allows employers and part-time job seekers to connect with each other.
+					      <p>
+							  With a friend built OnDmand, OnDmand is a web app platform that allows employers and part-time job seekers to connect with each other.
+							  <br/><br/> 
+							  Employers can post their part time job vacancies and part-time job seekers can login to chat with the employers 
+							  in the chatrooms to negotiate. Part-timers can also choose to accept or reject the job on the forum posting.
 							  <br/><br/>
-							  Built website with NodeJS, MYSQL for the backend and
-							  EJS & CSS used for frontend.
+							  I built OnDmand's backend features with NodeJS, MYSQL & chatroom with socket.io 
+							  <br/><br/>
 						  </p>
 
-					      <div class="categories">Web App</div>			               
+					      <div class="categories">NodeJS, MYSQL, socket.io</div>			               
 					   </div>
 
 			         <div class="link-box">
@@ -651,15 +659,15 @@
 							</div>      	
    
 						  <div class="description-box">
-							 <h4>Forex Arbitrage Engine</h4>		      
+							 <h4>Vincent Robot</h4>		      
 							 <p>
-								In team of 5 Computer Engineering students, built simple search & rescue robot using Arduino & Raspberry Pi.
+								In team of 5, built simple search & rescue robot using Arduino & Raspberry Pi.
 								Robot was to be remotely controlled to navigate through maze using LIDAR & SLAM algorithm.
 								<br/><br/>
 								I was responsible for calibrating and setting up the motors to integrate with the Arduino board.
 							 </p>
    
-							 <div class="categories">Java, NodeJS Client Server Socket</div>			               
+							 <div class="categories">C++, Arduino</div>			               
 						  </div>
    
 						<div class="link-box">
@@ -694,24 +702,23 @@
 			   </div>   
 			   
 				<div class="bgrid folio-item">
-						<div class="item-wrap">
-							
+					<div class="item-wrap">
 						<a href="#modal-00" class="overlay">
 							<img src="images/portfolio/UNICON.png" alt="UNICON">	    
-						</a>
-						<div class="folio-item-table">
+						</a>               
+					</div>
+					<div class="folio-item-table">
 							<div class="folio-item-cell">
-										<h3 class="folio-title">Head of UNICON2020</h3>	     					    
-										<span class="folio-types">
-											<a href="http://unicon2020.com" target="_blank">UNICON2020</a> is Asia's largest student led tech-startup conference.
-											<br/>
-											<br/>
-											Uniting more than 400 student entrepreneurs, industry experts & venture capitalists for 2 days through series of panel
-											discussions, masterclasses, keynotes & pitching competitions around the region.
-										</span>
-									</div>	                      	
-						</div>                    
-						
+								<h3 class="folio-title">Head of UNICON2020</h3>	     					    
+								<span class="folio-types">
+									<a href="http://unicon2020.com" target="_blank">UNICON2020</a> is Asia's largest student led tech-startup conference.
+									<br/>
+									<br/>
+									Uniting more than 400 student entrepreneurs, industry experts & venture capitalists for 2 days through series of panel
+									discussions, masterclasses, keynotes & pitching competitions around the region.
+								</span>
+							</div>	                      	
+					</div>     
 				</div>	
 
 
@@ -731,6 +738,8 @@
 								UNICON has been addressed by guests of honor such as Senior Minister of State, Dr. Janil Puthucheary & Senior Minister of State, Ministry of Trade and Industry & Ministry of Education, Mr. Chee Hong Tat.  
 								<br/><br/>
 								We have had an incredible line-up of speakers and industry experts such as Chatri Sityodong (Founder & CEO, ONE Championship), Sidu Ponnappa (Managing Director, GO-JEK India), Shanru Lai (Co-Founder, Shopback), Sakhee Dheer (Head of Digital Market, Facebook APAC). 
+								<br/><br/> 
+								Track record of attracting more than 400 participants from across Asia to come to NUS.
 						 </p>
 						 <br/>
 						 <div class="categories">Tech Conference</div>			               
@@ -743,7 +752,7 @@
 
 				</div> <!-- /modal-01 -->
 
-		   </div> <!-- /section-intro--> 
+		   </div>
 		   
 	   
 			
