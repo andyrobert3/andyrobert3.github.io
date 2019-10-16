@@ -1802,8 +1802,13 @@ header .logo a {
 	padding-bottom: 12rem;
 }
 #portfolio .folio-item {
+	text-align: center;
+	display: inline-block;
 	padding: 0;
-	position: relative;
+	margin-left: 25%;
+	margin-bottom: 25px;
+	width: 50%;
+	position: absolute;
 	overflow: hidden;
 }
 #portfolio .folio-item img {
