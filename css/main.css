@@ -1016,10 +1016,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .skills-list-container {
 	display: flex; 
 	justify-content: center;
+	margin-top: 24px;
 }	
 
 .skills-list {
-	columns: 3; 
 	flex: 1;
 	max-width: 600px;
 }
@@ -1033,6 +1033,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	flex: 1;
 	flex-direction: column;
 	float: none;
+	padding-left: 20px;
 }
 
 
@@ -1687,7 +1688,6 @@ header .logo a {
 	height: 4.8rem;
 	width: 4.8rem;
 	line-height: 4.8rem;
-	background: #313131;
 	border-radius: 50%;
 	text-align: center;
 	color: #FFFFFF;
@@ -1701,11 +1701,6 @@ header .logo a {
 	left: .05rem;
 	top: .2rem;
 }
-
-/* #resume .timeline-ico img {
-	border-radius: 50%;
-} */
-
 #resume .timeline-header {
 	float: left;
 	width: 35%;
@@ -1737,6 +1732,9 @@ header .logo a {
 	position: absolute;
 	left: 0;
 	bottom: 0;
+}
+#resume .timeline-content ul li {
+	margin-bottom: 8px;
 }
 
 /**
