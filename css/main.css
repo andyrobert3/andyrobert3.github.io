@@ -155,9 +155,9 @@ p img {
 }
 p.lead {
 	font-family: "lora-regular", serif;
-	font-size: 1.4rem;
+	font-size: 2rem;
 	line-height: 1.8;
-	color: #505050;
+	color: #888888;
 }
 @media only screen and (max-width:768px) {
 	p.lead {
@@ -1013,6 +1013,28 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .skill-bars li .percent95  { width: 95%; }
 .skill-bars li .percent100 { width: 100%; }
 
+.skills-list-container {
+	display: flex; 
+	justify-content: center;
+}	
+
+.skills-list {
+	columns: 3; 
+	flex: 1;
+	max-width: 600px;
+}
+
+.skills-list li {
+	text-align: left;
+}
+
+#skills-section {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	float: none;
+}
+
 
 /** 
  * ===================================================================
@@ -1296,7 +1318,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #intro {
-	background: #000000 url(../images/grab_hack.png) no-repeat center bottom;
+	background: #151515 url(../images/intro-bg.jpg) no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1314,8 +1336,8 @@ header .logo a {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #3d3d3d;
-	opacity: .75;
+	background: #111111;
+	opacity: .85;
 }
 
 .intro-content {
@@ -1493,8 +1515,8 @@ header .logo a {
  */
 #about {
 	background: #FFFFFF;
-	padding-top: 12rem;
-	padding-bottom: 15rem;
+	padding-top: 8rem;
+	padding-bottom: 8rem;
 }
 #about .section-intro {
 	margin-bottom: 3rem;
@@ -1564,6 +1586,10 @@ header .logo a {
 }
 .button-section [class*="col-"] .button:first-child {
 	margin-right: 4rem;
+}
+.button-container {
+	display: flex;
+	justify-content: center;
 }
 
 /**
